@@ -74,7 +74,7 @@ class SceneManager:
         
     def handle_events(self, event: pygame.event.Event) -> None:
         """Handle events for the current scene."""
-        if self.current_scene and not self.transitioning:
+        if self.current_scene:
             self.current_scene.handle_events(event)
             
     def update(self, dt: float) -> None:
