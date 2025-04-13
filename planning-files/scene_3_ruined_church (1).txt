@@ -1,0 +1,66 @@
+**Scene 3: The Ruined Church**
+
+---
+
+**Theme:** Desecration of the sacred and the return of the Word
+
+---
+
+**Setting & Atmosphere:**
+- A great cathedral in ruins, half-buried in vines and rubble
+- Graffiti and false symbols cover its walls — inverted crosses, serpents crowned, mocking slogans
+- Shattered stained glass, burned hymnals, broken altar
+- An oppressive silence inside, as if something holy was exiled
+
+---
+
+**Purpose in Narrative:**
+- Symbolizes the spiritual collapse of the visible Church
+- A place once built on Logos, now desecrated by inversion
+- The Sword of the Spirit (Word of God) is hidden here — buried and mocked, but not destroyed
+
+---
+
+**Puzzle: Restoring the Word**
+
+**Visual Mechanic:**
+- A shattered mural at the front of the church
+- Pieces of the mural scattered throughout the building (in side rooms, crypt, tower, confessional)
+- Each piece bears a line of Scripture or sacred geometry
+
+**Steps:**
+1. Explore and recover 6 mural shards
+2. Place them into the frame in correct order
+3. As the final shard is placed, the voice of the child (or Logos) speaks:
+   > "They silenced the Word with noise. But silence remembers."
+
+**Final Interaction:**
+- The altar opens, revealing a gleaming sword embedded in a block
+- Player must click and *read aloud* the full verse (optional voice mechanic or simulated selection)
+   > "Take up... the sword of the Spirit, which is the Word of God."
+
+**The Sword rises into their hand. Light floods the cathedral. The mocking symbols fade.**
+
+---
+
+**Reward:** Player receives **Sword of the Spirit (Word of God)**
+
+**Lore Scroll (Optional):** Hidden in the confessional:
+> "The Word was never gone. It was buried beneath performance, marketing, and pride. But even in silence, it lived."
+
+---
+
+**Spiritual Meaning:**
+- Even desecrated churches retain fragments of holy ground
+- The Word is not dead — it only waits for those who will lift it again
+
+---
+
+**Scene Transition:**
+- Bells ring softly in the distance
+- The player is now fully armored
+- Two paths appear: one to **Boaz**, one to **Jachin**
+
+---
+
+(Next: The Bell Towers)

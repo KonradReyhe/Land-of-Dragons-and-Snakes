@@ -1,0 +1,105 @@
+**💬 Dynamic NPC Dialogue System – Land of Dragons and Snakes**
+
+---
+
+This system outlines how each core NPC will respond differently based on the player’s spiritual progression. Dialogues are layered, symbolic, and reactive to player choices, armor collection, and serpent vision state.
+
+---
+
+### 🧍 NPC 1: The Justifier (Pride)
+
+**Stage 1 – Before Help (No Armor):**
+> “Who are you to question me? I’ve done what I had to. Justice is a scale — and mine is balanced.”
+
+**If Serpent Vision is active:**
+> “What are you looking at? There’s nothing on my back.”
+
+**Stage 2 – During Puzzle:**
+> “You think confession is strength? It’s weakness. The world eats the humble alive.”
+
+**Stage 3 – After Redemption:**
+> “I finally saw… my scale wasn’t broken — I was. Thank you for bringing the mirror.”
+
+**If revisited with 3+ armor pieces:**
+> “You carry more than items. You carry the weight I once denied.”
+
+---
+
+### 🧍 NPC 2: The Mother (Fear / Idolatry)
+
+**Stage 1 – Before Help:**
+> “The serpent watches over us. He protects us when no one else will.”
+
+**With Serpent Vision active:**
+> *The idol glows. The serpent whispers: “She belongs to me.”*
+
+**Stage 2 – During Puzzle:**
+> “I know it’s not right… but without him, I’m alone.”
+
+**Stage 3 – After Redemption:**
+> “He wasn’t my god. He was my fear.”
+
+**If revisited after collecting Sword of the Spirit:**
+> “Your light hurts my eyes — but it comforts my soul.”
+
+---
+
+### 🧍 NPC 3: The Performer (Vanity)
+
+**Stage 1 – Before Help:**
+> “Welcome, welcome! Watch me vanish, reappear, shine! Applause is better than peace!”
+
+**With Serpent Vision active:**
+> *The stage creaks. A golden serpent dances beside him, bowing when he does.*
+
+**Stage 2 – During Puzzle:**
+> “Why does silence feel louder than their cheers?”
+
+**Stage 3 – After Redemption:**
+> “I stood still for once… and in the quiet, I heard my own name again.”
+
+---
+
+### 🧍 NPC 4: The Mason (Despair)
+
+**Stage 1 – Before Help:**
+> “We built once. But what’s the point now? The stones mock me.”
+
+**With Serpent Vision active:**
+> *The serpent clings to his back like a shadowed yoke.*
+
+**Stage 2 – During Puzzle:**
+> “I remember the pattern… barely. Help me recall it.”
+
+**Stage 3 – After Redemption:**
+> “I laid one brick today. That’s enough.”
+
+---
+
+### 🧒 NPC 5: The Silent Child
+
+**Stage 1 – Pre-Progression:**
+> *Says nothing. Points gently toward the Performer’s stage.*
+
+**Mid-Progression:**
+> *Hands the player a crystal shard. Whispers:* “The bells are waiting.”
+
+**After all armor is collected:**
+> “The city was sleeping. You rang the first bell inside yourself.”
+
+**At final mirror:**
+> “You are ready now. Not because you are strong — but because you saw.”
+
+---
+
+### Dialogue Logic Triggers
+
+- **Serpent Vision Active:** Enables special dialogue with visual references
+- **Armor Collected:** Unlocks humbled responses and deeper truths
+- **Redemption Complete:** NPCs reference their transformation
+- **Final Readiness:** NPCs express awe, gratitude, and foreshadow the battle
+
+---
+
+This dialogue system can be further expanded with symbolic responses for ambient NPCs or optional crypt inhabitants. It ensures the world feels spiritually alive.
+

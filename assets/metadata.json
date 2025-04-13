@@ -1,0 +1,42 @@
+{
+    "patterns": {
+        "size": [
+            32,
+            32
+        ],
+        "format": "PNG",
+        "optimization": {
+            "max_colors": 256,
+            "dither": true
+        }
+    },
+    "effects": {
+        "size": [
+            64,
+            64
+        ],
+        "format": "PNG",
+        "optimization": {
+            "max_colors": 256,
+            "dither": true
+        }
+    },
+    "backgrounds": {
+        "size": [
+            1024,
+            768
+        ],
+        "format": "PNG",
+        "optimization": {
+            "max_colors": 256,
+            "dither": true
+        }
+    },
+    "sounds": {
+        "format": "WAV",
+        "optimization": {
+            "sample_rate": 44100,
+            "channels": 2
+        }
+    }
+}

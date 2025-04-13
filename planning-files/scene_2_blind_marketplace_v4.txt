@@ -1,0 +1,95 @@
+**Scene 2: The Blind Marketplace**
+
+---
+
+**Theme:** Spiritual blindness of society.
+
+---
+
+**Setting & Atmosphere:**
+- A ruined city square where life continues as if nothing is wrong.
+- Market stalls, shattered fountains, and broken statues line the area.
+- A hazy gray light covers the sky. Two broken bell towers are visible in the distance.
+- Dragons cling to people’s backs, whispering in their ears — invisible to them but visible to the player.
+
+---
+
+**Visual & Spiritual Tone:**
+- Eerie normality. A haunting stillness under the noise.
+- People act content while suffering inwardly. The player sees the weight.
+
+---
+
+**NPC 1: The Justifier (Sin: Pride)**
+[Full dialogue and puzzle already implemented above.]
+
+---
+
+**NPC 2: The Mother (Sin: Idolatry / Fear)**
+[Full dialogue and puzzle already implemented above.]
+
+---
+
+**NPC 3: The Performer (Sin: Vanity)**
+[Full dialogue and puzzle already implemented above.]
+
+---
+
+**NPC 4: The Mason (Sin: Despair)**
+
+**Location:** Sitting near the base of the broken bell tower Boaz. Surrounded by rubble and unfinished stones.
+
+**Appearance:** Dust-covered, gray-bearded, wrapped in a heavy cloak. His dragon is nearly invisible — like a shadow clinging to his back.
+
+**Opening Dialogue:**
+> MASON: Go away. There's nothing left to build.
+
+**Dialogue Tree:**
+
+**Player Option 1:** "What happened here?"
+> MASON: You see what happened. This tower once rang with glory. It warned us. It anchored us. Now it's just a corpse.
+
+**Player Option 2:** "Why don’t you rebuild it?"
+> MASON: For who? For what? No one hears. No one listens. Even the stones are silent now.
+
+**Player Option 3:** "Is that really what the stones say? Or what the dragon on your back says?"
+> MASON (startled): ...What did you say?
+
+(*Dragon twitches. The player shows him the Stone of Order — an engraved stone with a divine pattern and verse.*)
+
+**Player uses Stone of Order:**
+> MASON: I... I remember this mark. I carved this once. Before the voices stopped. Before hope left.
+
+**Player Option:** "The voices didn’t stop. You stopped listening."
+
+(*The wind shifts. Light breaks through the clouds. His dragon, now visible, tries to tighten around him.*)
+
+> MASON: I thought I was abandoned. But I... I abandoned the work.
+
+(*He stands slowly. The dragon screeches and dissolves into dust.*)
+
+> MASON: The foundation still holds. And if it holds... I can build again.
+
+---
+
+**Reward:** Player receives Shield of Faith
+
+**Lore Scroll (Optional):** Hidden in a stone cavity beside the tower:
+> “Faith is not the absence of ruin — it is the refusal to believe the ruin is final.”
+
+---
+
+**Puzzle Mechanics:**
+- Requires Stone of Order (found in a lore chamber or given by Silent Child)
+- Encouraging dialogue combined with item use breaks despair
+
+---
+
+**Spiritual Meaning:**
+- Despair is the dragon of silence — it thrives on forgetting
+- The work of righteousness must be continued even in ruin
+- Faith is the decision to keep building, despite appearances
+
+---
+
+(Next: NPC 5 – The Silent Child)

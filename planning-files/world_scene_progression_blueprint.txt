@@ -1,0 +1,103 @@
+**🗺️ World & Scene Progression Blueprint – Land of Dragons and Snakes**
+
+---
+
+This blueprint outlines the full flow of the game's symbolic world, structured for a linear but immersive experience.
+
+Each location connects logically and spiritually. Access is gated by puzzles, moral insight, or divine progression (armor pieces).
+
+---
+
+## 🔹 Scene 1 – Mirror Chamber (Starting Room)
+- Locked door to exit
+- Puzzle: collect and place mirror shards
+- Face personal serpent in mirror
+- Receive Belt of Truth
+- Unlock serpent vision mode
+
+**Exit to:** Blind Marketplace
+
+---
+
+## 🔹 Scene 2 – The Blind Marketplace (Hub Area)
+- 5 NPCs scattered around with serpents
+- Central broken fountain
+- Two inactive bell towers visible
+- Each NPC represents a sin and grants an armor piece when spiritually freed
+
+**Gate Condition:** Must have Belt of Truth to perceive serpents
+
+**NPC Paths Unlock in Order:**
+1. The Justifier → Breastplate of Righteousness
+2. The Mother → Helmet of Salvation
+3. The Performer → Shoes of Peace
+4. The Mason → Shield of Faith
+
+- The Silent Child only speaks once others are helped
+- Gives Crystal Shard to activate towers
+
+**Exit to:** Bell Towers (after all armor pieces gathered)
+
+---
+
+## 🔹 Scene 3 – Ruined Church
+- Unlocks only once marketplace is cleared
+- Player restores shattered mural (6 fragments)
+- Final puzzle grants Sword of the Spirit
+
+**Exit to:** Bell Towers
+
+---
+
+## 🔹 Scene 4 – Bell Towers: Boaz & Jachin
+- Accessible from the far edge of the marketplace
+- Two towers:
+  - Boaz (Justice): scale puzzle
+  - Jachin (Righteousness): virtue climb
+
+**Each unlocked via Crystal Shard**
+
+- Must complete both towers and ring bells
+- Opens underground path in center square
+
+**Exit to:** Cavern of the King Dragon
+
+---
+
+## 🔹 Final Scene – Cavern of the King Dragon
+- Spiritual climax and boss puzzle
+- Six illusion attacks countered by six armor pieces
+- Player defeats serpent with Sword of the Spirit
+- All sin vanishes, bells ring again
+
+**Exit to:** Restored city (cutscene only)
+
+---
+
+## 🕯️ Optional Secret Areas (Unlockable with Armor)
+- 🧱 Bellmaker’s Workshop (accessible with Shield of Faith)
+  - Puzzle room showing inverted bell mechanics
+  - Lore scroll: “They silenced the sound, not the structure”
+
+- ⚰️ Silent Crypt (access via shoes of peace)
+  - Ghost NPCs whispering regrets
+  - Player leaves candle of remembrance
+  - Lore scroll: “Even the buried can speak if we listen”
+
+---
+
+**Pacing Flow (by Phase):**
+1. Intro & personal serpent – Scene 1
+2. Open-ended spiritual aid & learning – Scene 2
+3. Restoration of the sacred – Scene 3
+4. Test of divine pillars – Scene 4
+5. Confrontation and transcendence – Final Scene
+
+---
+
+**Game Completion Requirements:**
+- All 6 armor pieces
+- All main NPCs helped
+- Both bells rung
+- Sword acquired
+- Crystal Shard placed

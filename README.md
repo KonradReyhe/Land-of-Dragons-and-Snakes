@@ -1,60 +1,76 @@
-# Land of Dragons and Snakes
+# 🐉 Land of Dragons and Snakes
 
-A 2D point-and-click adventure game built with Python and Pygame. Explore a mysterious world filled with ancient artifacts, magical mirrors, and hidden secrets.
+A spiritually symbolic point-and-click adventure game built with Python and Pygame.
 
-## Features
+## 🎮 Game Description
+Land of Dragons and Snakes is an atmospheric adventure game that combines medieval aesthetics with spiritual symbolism. Players navigate through mystical chambers, solve intricate puzzles, and uncover deep spiritual meanings through their journey.
 
-- Atmospheric medieval fantasy setting
-- Point-and-click exploration
-- Interactive environment with movable objects
-- Inventory system
-- Dynamic dialog system
-- Smooth character movement
-- Medieval-styled UI elements
+### Current Features
+- Starting Screen with medieval-themed UI
+- Mirror Chamber puzzle scene
+- Advanced puzzle logic system
+- Resource management system
+- Scene transition system
+- Interactive UI elements
 
-## Requirements
-
-- Python 3.x
-- Pygame
-
-## Installation
-
-1. Clone the repository:
+## 🛠️ Setup Instructions
+1. Ensure you have Python 3.x installed
+2. Install the required packages:
 ```bash
-git clone https://github.com/KonradReyhe/Land-of-Dragons-and-Snakes.git
-cd Land-of-Dragons-and-Snakes
+pip install -r requirements.txt
 ```
-
-2. Install dependencies:
-```bash
-pip install pygame
-```
-
 3. Run the game:
 ```bash
-python main.py
+python run_game.py
 ```
 
-## Game Controls
+## 🔧 Technical Requirements
+- Python 3.x
+- Pygame-CE 2.5.3
+- Additional dependencies listed in requirements.txt
 
-- Left-click to move the character
-- Left-click on objects to interact with them
-- Inventory items can be examined by clicking on them
+## 🎨 Assets
+The game uses custom assets for:
+- Backgrounds
+- UI elements
+- Sound effects
+- Character sprites
+
+## 🚀 Development Status
+Currently in active development with Scene 1 (Mirror Chamber) implemented.
 
 ## Project Structure
 
-- `main.py` - Game entry point
-- `scene1.py` - First scene implementation
-- `utils/` - Utility functions and classes
-- `assets/` - Game assets (images, sounds)
-  - `scene1/` - Scene 1 specific assets
-  - `characters/` - Character sprites
+```
+land_of_dragons/
+├── src/                    # Source code
+│   ├── game/              # Game core
+│   │   ├── core/          # Core systems
+│   │   ├── scenes/        # Game scenes
+│   │   ├── ui/            # UI components
+│   │   ├── items/         # Item system
+│   │   └── puzzles/       # Puzzle system
+│   └── data/              # Game data
+│       ├── dialogues/     # Dialogue trees
+│       ├── items/         # Item definitions
+│       └── puzzles/       # Puzzle configurations
+├── assets/                # Game assets
+│   ├── backgrounds/       # Scene backgrounds
+│   ├── characters/        # Character sprites
+│   ├── items/            # Item sprites
+│   ├── ui/               # UI elements
+│   └── audio/            # Sound effects and music
+└── docs/                 # Documentation
+    └── design/           # Game design documents
+```
 
-## Development Status
+## Development
 
-Currently in active development. Scene 1 is implemented with basic gameplay mechanics including:
-- Character movement
-- Interactive objects (bookshelves)
-- Collectible items (mirror shards)
-- Dialog system
-- Inventory management 
+- Follow PEP 8 style guide
+- Use type hints for better code clarity
+- Document all public functions and classes
+- Keep game logic separate from rendering code
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details. 

@@ -1,0 +1,107 @@
+**🧙‍♂️ Optional Boss & Hidden Character Dialogues – Land of Dragons and Snakes**
+
+---
+
+These encounters are hidden, non-essential, but reveal deeper spiritual wisdom and challenge players who seek full understanding. They do not offer combat rewards — but spiritual ones.
+
+---
+
+## 👁️‍🗨️ Hidden Encounter: The Inverted Monk
+
+**Location:** The Cloister of Veils (hidden behind false wall in Ruined Church)
+
+**Visual:** Hooded monk seated before inverted altar. Black fire flickers upward. Wears a twisted rosary.
+
+**Trigger:** Only appears if the player lit the idol candle before redeeming the Mother.
+
+**Dialogue Tree:**
+
+> “So… you lit the false flame. Was it warmth or fear you followed?”
+
+- [Option 1] “I was deceived.”
+- [Option 2] “It was my choice.”
+
+> “Good. Both are true.”
+
+> “You wear armor now — but tell me, do you know its weight? Or just its glow?”
+
+**Final Riddle:**
+> “When the cross is upside-down… does it point to hell, or simply remind us who died on it?”
+
+> “Truth can be twisted. Logos cannot.”
+
+**Outcome:**
+- Player receives Lore Scroll: “The mask of evil is worn with scripture.”
+- Player loses 1 scroll temporarily unless they answer “choice” over “deception”
+
+---
+
+## 🕳️ Hidden Boss Puzzle: The Whispering Idol
+
+**Location:** Deep beneath the marketplace in a collapsed sewer
+
+**Visual:** Stone idol carved in ancient tongues. Serpent coiled around it with seven faces.
+
+**Puzzle-Battle (No Combat):**
+- Each face speaks one lie:
+  - “There is no creator”
+  - “All truths are equal”
+  - “Order is oppression”
+  - “Pleasure is freedom”
+  - “Death is the end”
+  - “The Word is myth”
+  - “You are alone”
+
+Player must “respond” with correct counter-scriptures (from scrolls or memory)
+
+**If correct:** Idol cracks. Serpent hisses and flees.
+
+**If wrong:** One light dims in the player’s mirror room.
+
+**Reward:** Lore Scroll: “Lies rot the soul — but light never lies.”
+
+---
+
+## 🧓 Hidden Guide: The Stone Witness
+
+**Location:** Bellmaker’s crypt, hidden in a wall sarcophagus
+
+**Visual:** Elderly man encased in crystal, whispering faint truths
+
+**Interaction (once per game):**
+> “I watched them ring the bells the first time… before they forgot what they meant.”
+
+> “Do not build with fear. Build with memory.”
+
+> “The serpent slithers loudest in a vacuum.”
+
+**Final Words:**
+> “The world was not made broken. It was made good… and forgotten.”
+
+**Reward:** Crystal Pendant of Memory (lightens player when revisiting old scenes)
+
+---
+
+## 👶 Hidden Companion: The Child as Lamb
+
+**Location:** Appears if player enters final mirror without discarding Coin of Deceit
+
+**Visual:** Same child, but clothed in white with faint lamb features (hornless, luminous)
+
+**Dialogue:**
+> “You kept the lie. It followed you here.”
+
+> “But mercy speaks still…”
+
+**If player kneels:**
+> “Then even the coin can become a crown — if cast down.”
+
+**Symbolic Outcome:**
+- Coin turns to ash
+- Child places hand on player’s shoulder
+- Scroll unlocked: “What you surrender can be sanctified.”
+
+---
+
+These optional figures speak to the player’s spiritual state and reward deeper moral contemplation, not mechanical mastery.
+

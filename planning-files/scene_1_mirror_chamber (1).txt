@@ -1,0 +1,68 @@
+**Scene 1: The Mirror Chamber**
+
+---
+
+**Theme:** Self-awareness. The first lie is within.
+
+---
+
+**Setting & Atmosphere:**
+- The player awakens alone in a cold, circular stone chamber.
+- The room is lit by dim, flickering light coming through a broken stained-glass dome overhead.
+- Ancient scripture is carved into the walls, cracked and faded. Words like “truth,” “light,” “Logos” are half-erased.
+- A mirror lies shattered across the room. Symbols like the ichthys (fish), cross, triangle, and serpent are embedded in the glass shards.
+- There is silence, except for the faint dripping of water.
+
+---
+
+**Visual & Spiritual Tone:**
+- Stillness. Tension. A presence of something lost.
+- The feeling of potential — like a forgotten sacred place waiting to speak again.
+
+---
+
+**Puzzle Overview: The Shattered Mirror**
+The mirror is the first challenge. It represents the player's fractured spiritual sight and memory.
+
+**Puzzle Steps:**
+1. **Exploration** – Player clicks on mirror shards around the room (5 total).
+   - Each shard gives a whisper from scripture: e.g. “Now we see dimly…”, “You shall know the truth…”, “Who told you that you were naked?”
+
+2. **Reassembly** – Player drags shards to the mirror frame.
+   - Placing all shards in correct order activates a soft hum and flash of light.
+
+3. **Vision Trigger** – Upon completion, a **cutscene** plays:
+   - The player sees their own reflection — with a **serpent coiled around their neck**, whispering lies (VO whisper: “You are your own master… You make your own truth… There is no judgment…”)
+   - The screen distorts. A voice (Logos) cuts through: **“The beginning of wisdom is fear of the Lord.”**
+
+4. **Breaking Free** – Player must click on the serpent in the mirror.
+   - The reflection reaches out — the real player rips the serpent off.
+   - It dissolves into black ash.
+
+---
+
+**Spiritual Outcome:**
+- The camera pulls back. The restored mirror now shows light radiating behind the player’s reflection.
+- Text fades in: **“Stand therefore, having girded your loins with truth…” (Ephesians 6:14)**
+- **Belt of Truth acquired**.
+- The exit door (previously hidden) now reveals itself — made of light and stone.
+
+---
+
+**Lore Scroll Hidden (Optional):**
+- Found in a crack behind the altar.
+- Faded parchment reads:
+> "Before man fell, he walked in truth. The serpent’s first weapon was not force — but speech. To restore the world, the Word must return."
+
+---
+
+**Items in Scene:**
+- Mirror shards (5)
+- Hidden scroll (1)
+- “Serpent Ash” (symbolic item, carried until next scene)
+
+---
+
+**Exit to Scene 2: Blind Marketplace**
+- After acquiring the Belt of Truth, the light-door opens and leads into a long corridor… the sounds of distant market cries echo.
+- End Scene 1.

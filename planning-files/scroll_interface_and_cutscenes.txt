@@ -1,0 +1,83 @@
+**📜 Scroll Reading Interface + 🎬 Cutscene Structure – Land of Dragons and Snakes**
+
+---
+
+## 📜 In-Game Scroll Reading Interface
+
+**Location:** Scrolls are found throughout the game and opened via the inventory or altar events.
+
+**UI Design:**
+- Scroll unrolls from top-down in a parchment-style frame
+- Background fades to dim lighting with candlelight flicker effect
+- “Turn page” arrow or tap to exit
+- Optional voiceover (whispered tone) for accessibility
+
+**Font Style:**
+- Script-like serif font, gold or ink-black on parchment texture
+- Headings in caps (“SCROLL I – THE FIRST LIE”)
+
+**Functionality:**
+- Scrolls can be re-read from inventory at any time
+- Scrolls marked as “discovered” on a parchment tracker UI
+- Final Scroll is locked until all 30 are read
+
+**Immersion Enhancer:**
+- When a scroll is first discovered, a faint bell chime plays and a symbol glows briefly on screen
+
+---
+
+## 🎬 Cutscene Structure & Narrative Flow
+
+Cutscenes are used to:
+- Anchor emotional/spiritual progress
+- Mark transitions between major phases
+- Deliver poetic insight without direct gameplay
+
+---
+
+### ✨ Cutscene 1: First Serpent Defeated
+- Trigger: After Mirror Puzzle and personal serpent vanishes
+- Visual: Slow fade, player kneels before mirror, light enters chest
+- Voiceover: 
+> “He who faces himself truly... begins to see others rightly.”
+
+---
+
+### ✨ Cutscene 2: Bells Ring Together
+- Trigger: After Boaz and Jachin towers are both completed
+- Visual: Bells ring across the sky; citizens look up, serpents retreat
+- Music: Rising chorus in ancient Latin-style chant
+- Symbol: Sky opens slightly, rays of golden light pierce clouds
+
+---
+
+### ✨ Cutscene 3: The City Before (Unlocked via Echoes)
+- Trigger: Collect all 8 city echoes
+- Visual: Vibrant pre-fall city, builders at work, children singing at fountain
+- Tone: Deep nostalgia, loss, and hope
+- Final frame: Same fountain now cracked, child drawing again
+
+---
+
+### ✨ Cutscene 4: Victory over the Dragon
+- Trigger: After final puzzle in King Dragon cavern
+- Visual: Armor shines, serpent shrinks and falls into abyss
+- Voiceover:
+> “The lie was always louder. But never stronger.”
+
+- Final bell tone plays. Fade to black.
+
+---
+
+### ✨ Ending Mirror Scene
+- Trigger: Walk to mirror in restored city
+- Visual: Player sees radiant version of self in armor
+- Text appears:
+> “And having done all… to stand.” (Ephesians 6:13)
+
+- If all collectibles found: Transfigured self seen, surrounded by light and temple reflection
+
+---
+
+This scroll/cutscene structure ensures the emotional and spiritual narrative lands with power and elegance.
+

@@ -1,0 +1,82 @@
+**📦 Final Collectibles System – Land of Dragons and Snakes**
+
+---
+
+This system includes symbolic collectibles beyond the main items and armor. These are optional but deepen immersion, reward exploration, and unlock hidden scrolls, endings, or spiritual insights.
+
+---
+
+### 🪞 1. Glyphs of Inversion (12 Total)
+
+- Small glowing markings hidden across scenes
+- Only visible with Serpent Vision or Harmonic Crystal from Bellmaker’s Workshop
+- Each glyph is an **inverted sacred symbol** (e.g. upside-down cross, twisted triangle, corrupted scripture)
+
+**Collecting all 12:**
+- Unlocks scroll: “They reversed the truth… but not the source.”
+- Optional bonus: Opens entrance to The Inverted Library (final hidden area)
+
+---
+
+### 🐍 2. Serpent Typology Codex
+
+- When the player frees an NPC, they “record” the serpent in their Codex
+- Each serpent added with its:
+  - **Sin** (e.g., Pride, Vanity)
+  - **Form** (e.g., Floating, Clinging)
+  - **Last Words** (final hiss heard before vanishing)
+
+**Codex UI:** Opens from inventory as “Spiritual Bestiary”
+
+**Collecting all types (7):**
+- Unlocks scroll: “Each dragon is born of a lie. But none can survive the Word.”
+
+---
+
+### 🔊 3. Echoes of the City (8 Total)
+
+- Audio/visual fragments hidden in ruins or activated with the Echo Pendant from Silent Crypt
+- Each echo is a memory from before the fall (e.g. bellmaker singing, mother praying, child drawing)
+
+**Collecting all 8:**
+- Unlocks a scene: “The City Before” — a cutscene memory with a full choir and vision of the city intact
+
+---
+
+### 📖 4. Scroll Count (30 Total)
+
+- 15 in Lore Scroll Volume I
+- 15 in Volume II
+- Some are:
+  - Given by NPCs
+  - Hidden in puzzle rooms
+  - Rewarded for collecting glyphs, echoes, or defeating the King Dragon
+
+**Reading all 30:**
+- Unlocks the Final Scroll with hidden line:
+  > “And the temple shall be within them.”
+
+---
+
+### 🪙 5. Coin of Deceit Tracking
+
+- If the player keeps or uses the Coin of Deceit, a secret ending is affected
+- If it’s thrown away before acquiring the last armor, a blessing appears at the mirror
+
+**Symbolic Meaning:** Can the player reject worldly power before the climax?
+
+---
+
+✅ **Total Completion Bonus**
+
+- If all collectibles are acquired:
+  - Scrolls 1–30
+  - Glyphs 1–12
+  - Echoes 1–8
+  - All 7 serpent codex entries
+  - Coin of Deceit properly discarded
+
+**Then:** The mirror at the end reflects the player not only in armor — but *transfigured*. Light pulses from within. Text appears:
+
+> “This is what the garden remembered.”
+

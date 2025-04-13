@@ -1,0 +1,126 @@
+**🧾 Developer Implementation Guide – Land of Dragons and Snakes**
+
+---
+
+This document serves as a structured narrative and feature handoff for developers building the point-and-click adventure game using Pygame. All design is complete and spiritually aligned. The goal is a single, rich, symbolically meaningful experience with no replay mode.
+
+---
+
+## 🔧 CORE SYSTEMS TO MAINTAIN
+
+1. **Scene Management**
+   - Modular scene transitions (game/scene/game_state.py)
+   - Persistent game state (armor pieces, puzzle flags, scrolls read)
+
+2. **Interaction Engine**
+   - Click-to-move and click-to-interact
+   - Dialogue choice trees (dialogue_system.py or similar)
+   - Inventory overlay + item use
+
+3. **UI Framework**
+   - Full-screen scroll interface (text + optional voiceover)
+   - Inventory and item detail UI
+   - Lore Codex + Serpent Bestiary (optional tabs)
+
+4. **Cutscene Support**
+   - Triggered animations or static scene overlays
+   - Fade transitions, soundtrack triggers
+   - Final scene overlay with mirrored player reflection
+
+---
+
+## 🧱 SCENE STRUCTURE OVERVIEW
+
+Each of these scenes is fully designed with puzzles, dialogues, visuals, and progression conditions:
+
+- Scene 1: Mirror Chamber
+- Scene 2: Blind Marketplace (hub)
+- Scene 3: Ruined Church
+- Scene 4: Bell Towers (Boaz & Jachin)
+- Final Scene: Cavern of the King Dragon
+- Optional Rooms: Silent Crypt, Bellmaker's Workshop, Cloister of Veils
+
+Developer notes for transition logic:
+- Some scenes only unlock after specific items or armor pieces
+- Use boolean flags (e.g., `armor_breastplate_obtained`) to gate logic
+- Secret rooms use armor-based entry validation
+
+---
+
+## 📜 CONTENT MODULES TO INTEGRATE
+
+- **Scroll Library Vol I & II** (30 scrolls total)
+  - Use `/data/scroll_interface_and_cutscenes.txt`
+  - Track read scrolls in persistent save
+- **Puzzle Logic** (multi-step interactions)
+  - Defined in `/data/advanced_puzzle_logic_design.txt`
+  - Ensure fail state messages and correction options
+- **NPC Dialogue Trees**
+  - Implement progressive responses using stage-based triggers
+  - Ref: `/data/dialogue_tree_system.txt`
+
+- **Serpent Vision Toggle**
+  - When active, change NPC visuals and dialogue
+  - Used to reveal hidden glyphs and items
+
+---
+
+## 🗝️ INVENTORY & ITEM HANDLING
+
+All collectible items are defined in:
+- `/data/symbolic_item_codex.txt`
+- Track usage, state, and scene triggers (e.g., using candle in church)
+
+Special Item Logic:
+- Coin of Deceit: influences final cutscene based on usage
+- Serpent Ash: used in scales + deeper puzzles
+
+---
+
+## 🔮 PUZZLES & REWARDS
+
+All puzzle and hidden content logic found in:
+- `/data/advanced_puzzle_logic_design.txt`
+- `/data/optional_bosses_and_hidden_characters.txt`
+
+Ensure support for:
+- Multi-step interactions
+- Context-sensitive item combinations
+- Lore scroll unlocks as rewards
+
+---
+
+## 📁 FILE STRUCTURE SUGGESTED
+
+- /game/
+  - main.py
+  - constants.py
+  - game_state.py
+  - scenes/
+  - items/
+  - puzzles/
+  - ui/
+  - dialogue/
+  - data/
+  - cutscenes/
+- /assets/
+  - scene_[n]/backgrounds, items, npcs
+  - global/ui/
+  - player/
+
+---
+
+## ✅ COMPLETION CHECKLIST
+
+- All six Armor of God pieces obtained
+- All major NPCs spiritually helped
+- Bell towers restored
+- Mural puzzle solved
+- Sword of Spirit acquired
+- Final dragon defeated
+- Optional scrolls and encounters included (not required, but impactful)
+
+---
+
+This guide, combined with all supporting text files and prompts, gives a full structure to implement the game faithfully. The focus remains on spiritual revelation, immersive symbolism, and biblical allegory.
+

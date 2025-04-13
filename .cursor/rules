@@ -1,0 +1,68 @@
+# Cursor Rules for Land of Dragons and Snakes
+
+# Code Style
+indent_size = 4
+max_line_length = 88
+use_tabs = false
+
+# Python specific
+python_path = "venv/bin/python"  # On Windows: venv\Scripts\python.exe
+python_interpreter = "python3.11"
+
+# Linting
+enable_pylint = true
+enable_flake8 = true
+enable_mypy = true
+
+# Formatting
+format_on_save = true
+formatter = "black"
+
+# Testing
+test_framework = "pytest"
+test_path = "tests"
+
+# Documentation
+docstring_style = "google"
+enable_auto_docstring = true
+
+# Git
+enable_git = true
+auto_stage = true
+auto_commit = false
+
+# Debugging
+debug_port = 5678
+enable_debug = true
+
+# Code Style and Standards
+- Follow PEP 8 style guide for Python code
+- Use descriptive variable and function names
+- Include docstrings for all classes and methods
+- Keep functions focused and single-purpose
+- Use type hints for function parameters and return values
+
+# Project Structure
+- Keep scene-specific code in separate modules
+- Use consistent naming conventions across files
+- Organize assets in appropriate subdirectories
+- Maintain clear separation of concerns
+
+# Game Development
+- Handle Pygame surfaces properly to prevent memory leaks
+- Implement proper error handling for asset loading
+- Use constants for configuration values
+- Keep game state management clean and organized
+- Document game mechanics and interactions
+
+# Performance
+- Optimize image loading and scaling
+- Minimize surface creation during gameplay
+- Use sprite groups for efficient rendering
+- Implement proper cleanup in scene transitions
+
+# Documentation
+- Include setup instructions in README
+- Document game controls and mechanics
+- Explain scene progression and puzzle solutions
+- Keep code comments focused on complex logic 
