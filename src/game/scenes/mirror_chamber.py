@@ -10,8 +10,9 @@ import random
 from ..core.scene_manager import Scene
 from ..core.resource_manager import ResourceManager
 from ..core.input_manager import InputManager
+from .base_scene import BaseScene
 
-class MirrorChamber(Scene):
+class MirrorChamber(BaseScene):
     def __init__(self, game_state):
         """Initialize the Mirror Chamber scene."""
         super().__init__(game_state)
@@ -308,44 +309,6 @@ class MirrorChamber(Scene):
         self.serpent_animation_frame = 0
         self.serpent_animation_speed = 0.2
         
-        # Load bookshelf and hidden shard
-        self.bookshelf_image = self.resource_manager.load_image("bookshelf.png")
-        self.bookshelf_scale = 0.8
-        bookshelf_size = (int(self.bookshelf_image.get_width() * self.bookshelf_scale),
-                         int(self.bookshelf_image.get_height() * self.bookshelf_scale))
-        self.bookshelf_image = pygame.transform.scale(self.bookshelf_image, bookshelf_size)
-        self.bookshelf_rect = pygame.Rect(50, 200, bookshelf_size[0], bookshelf_size[1])  # Moved up to y=200
-        self.bookshelf_moved = False
-        
-        # Hidden shard behind bookshelf
-        self.hidden_shard = {
-            "collected": False,
-            "position": (100, 250),  # Adjusted position relative to new bookshelf position
-            "rect": pygame.Rect(100, 250, 50, 50),
-            "image": None,
-            "symbol": "hidden",
-            "whisper": "A shard hidden behind the bookshelf...",
-            "glow_alpha": 0
-        }
-        
-        # Create hidden shard image
-        self.hidden_shard["image"] = pygame.Surface((50, 50), pygame.SRCALPHA)
-        # Draw shard shape
-        points = [(25, 0), (50, 25), (25, 50), (0, 25)]
-        pygame.draw.polygon(self.hidden_shard["image"], (200, 200, 255, 180), points)
-        # Add border
-        pygame.draw.polygon(self.hidden_shard["image"], (255, 255, 255, 150), points, 2)
-        # Add highlight
-        highlight_points = [(30, 5), (45, 25), (30, 45)]
-        pygame.draw.polygon(self.hidden_shard["image"], (255, 255, 255, 80), highlight_points)
-        
-        # Create glow surface for hidden shard
-        self.hidden_shard["glow_surface"] = pygame.Surface((70, 70), pygame.SRCALPHA)
-        glow_rect = pygame.Rect(10, 10, 50, 50)
-        for radius in range(5, 0, -1):
-            pygame.draw.rect(self.hidden_shard["glow_surface"], (*self.colors['glow'][:3], 10),
-                           glow_rect.inflate(radius*2, radius*2), border_radius=radius)
-
     def _setup_inventory(self):
         """Setup inventory slots with medieval styling."""
         slot_size = 50
@@ -423,14 +386,6 @@ class MirrorChamber(Scene):
                                 slot["item"] = shard
                                 break
                 
-                # Also collect hidden shard
-                if not self.hidden_shard["collected"]:
-                    self.hidden_shard["collected"] = True
-                    for slot in self.inventory_slots:
-                        if not slot["item"]:
-                            slot["item"] = self.hidden_shard
-                            break
-                
                 # Place all shards in mirror slots
                 for slot in self.mirror_slots:
                     if not slot["shard"]:
@@ -447,20 +402,7 @@ class MirrorChamber(Scene):
                     self._check_puzzle_completion()
                 
                 return
-            
-            # Check for bookshelf interaction
-            if not self.bookshelf_moved and self.bookshelf_rect.collidepoint(event.pos):
-                # Move bookshelf to the right
-                self.bookshelf_rect.x += 100
-                self.bookshelf_moved = True
-                self._set_dialogue("The bookshelf moved! There's something behind it...")
-                return
-            
-            # Check for hidden shard collection
-            if self.bookshelf_moved and not self.hidden_shard["collected"] and self.hidden_shard["rect"].collidepoint(event.pos):
-                self._collect_shard(self.hidden_shard)
-                return
-            
+
             # Check for door click when available
             if self.can_exit and self.door_rect.collidepoint(event.pos):
                 self.start_transition("blind_marketplace")
@@ -744,21 +686,13 @@ class MirrorChamber(Scene):
                     screen.blit(glow, (shard["rect"].x - 10, shard["rect"].y - 10))
                 screen.blit(shard["image"], shard["rect"])
         
-        # Draw bookshelf
-        screen.blit(self.bookshelf_image, self.bookshelf_rect)
-        
-        # Draw hidden shard if bookshelf is moved
-        if self.bookshelf_moved and not self.hidden_shard["collected"]:
-            # Draw shard with glow effect
-            if self.hidden_shard["glow_alpha"] > 0:
-                glow_surface = self.hidden_shard["glow_surface"].copy()
-                glow_surface.set_alpha(self.hidden_shard["glow_alpha"])
-                screen.blit(glow_surface, (self.hidden_shard["rect"].x - 10, self.hidden_shard["rect"].y - 10))
-            screen.blit(self.hidden_shard["image"], self.hidden_shard["rect"])
-        
-        # Draw character (always in front of bookshelf)
+        # Draw character
         if self.character_visible:
             screen.blit(self.character_image, self.character_rect)
+        
+        # Draw serpent if visible
+        if self.serpent_visible:
+            screen.blit(self.serpent_image, self.serpent_rect)
         
         # Draw dragged item if any
         if self.dragged_item:

@@ -22,7 +22,8 @@ class ResourceManager:
             'characters': 'assets/characters',
             'sounds': 'assets/sounds',
             'music': 'assets/music',
-            'fonts': 'assets/fonts'
+            'fonts': 'assets/fonts',
+            'items': 'assets/items'  # Add items path
         }
         
         # Create asset directories if they don't exist
@@ -36,12 +37,8 @@ class ResourceManager:
             
         try:
             # Determine the correct base path based on the filename
-            base_path = self.base_paths['images']  # default
-            if filename.startswith('backgrounds/'):
-                base_path = 'assets'  # backgrounds are directly in assets/backgrounds
-            elif filename.startswith('characters/'):
-                base_path = 'assets'  # characters are directly in assets/characters
-                
+            base_path = 'assets'  # All assets are under the assets directory
+            
             image = pygame.image.load(os.path.join(base_path, filename))
             if scale:
                 new_size = (int(image.get_width() * scale), int(image.get_height() * scale))
